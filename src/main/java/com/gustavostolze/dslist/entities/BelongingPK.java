@@ -10,7 +10,7 @@ import jakarta.persistence.ManyToOne;
 public class BelongingPK {	
 	
 	@ManyToOne
-	@JoinColumn(name = "game_list")
+	@JoinColumn(name = "game_id")
 	private Game game;
 	
 	@ManyToOne
